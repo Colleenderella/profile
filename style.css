@@ -1,0 +1,73 @@
+div {
+  border: 5px double rgb(155, 155, 155);
+}
+h1 {
+  color: rgb(55, 55, 55);
+}
+
+h2 {
+  color: rgb(47, 142, 185);
+}
+
+
+body {
+  background-color: rgb(204,204,204);
+  /* color: rgb(55, 55, 55); */
+  font-family: Arial, monospace;
+  letter-spacing: 10px;
+  font-size: 30px;
+  line-height: 1,6;
+}
+
+p {
+  padding: 12px;
+}
+
+#btn-spongy {
+  text-decoration: none;
+  background-color: rgb(215, 22, 22);
+  padding: 12px;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+}
+
+#btn-spongy:hover {
+  transition: 100ms;
+  color: rgb(215, 22, 22);
+  font-weight: bolder;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  color: rgb(47, 142, 185);
+  font-family: Helvetica, monospace;
+  letter-spacing: 5px;
+  font-size: 15px;
+  line-height: 0,9;
+}
+
+link {
+  color: rgba(0, 0, 10, 0.208);
+  font-family: Helvetica, monospace;
+  letter-spacing: 5px;
+  font-size: 15px;
+  line-height: 0,9;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card-white {
+  background-color: white;
+  padding: 24px;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 1px 1px 30px rgba(215, 100, 214, 0.3);
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
